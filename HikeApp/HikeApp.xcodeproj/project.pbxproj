@@ -14,6 +14,7 @@
 		E891EE962B627014009595A0 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E891EE952B627014009595A0 /* CardView.swift */; };
 		E891EE992B627224009595A0 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E891EE982B627224009595A0 /* CustomBackgroundView.swift */; };
 		E891EE9C2B627454009595A0 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E891EE9B2B627454009595A0 /* ColorExtension.swift */; };
+		E891EE9E2B627FEC009595A0 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E891EE9D2B627FEC009595A0 /* CustomButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		E891EE952B627014009595A0 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		E891EE982B627224009595A0 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 		E891EE9B2B627454009595A0 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		E891EE9D2B627FEC009595A0 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +59,12 @@
 		E891EE862B626BC1009595A0 /* HikeApp */ = {
 			isa = PBXGroup;
 			children = (
+				E891EE972B6271E8009595A0 /* Component */,
 				E891EE9A2B6273E2009595A0 /* Utility */,
 				E891EE872B626BC1009595A0 /* HikeAppApp.swift */,
 				E891EE892B626BC1009595A0 /* ContentView.swift */,
 				E891EE8B2B626BC7009595A0 /* Assets.xcassets */,
 				E891EE8D2B626BC7009595A0 /* Preview Content */,
-				E891EE972B6271E8009595A0 /* Component */,
 			);
 			path = HikeApp;
 			sourceTree = "<group>";
@@ -80,6 +82,7 @@
 			children = (
 				E891EE952B627014009595A0 /* CardView.swift */,
 				E891EE982B627224009595A0 /* CustomBackgroundView.swift */,
+				E891EE9D2B627FEC009595A0 /* CustomButtonView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				E891EE8A2B626BC1009595A0 /* ContentView.swift in Sources */,
 				E891EE962B627014009595A0 /* CardView.swift in Sources */,
 				E891EE882B626BC1009595A0 /* HikeAppApp.swift in Sources */,
+				E891EE9E2B627FEC009595A0 /* CustomButtonView.swift in Sources */,
 				E891EE992B627224009595A0 /* CustomBackgroundView.swift in Sources */,
 				E891EE9C2B627454009595A0 /* ColorExtension.swift in Sources */,
 			);
