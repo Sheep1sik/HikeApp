@@ -71,9 +71,9 @@
 			children = (
 				E891EE972B6271E8009595A0 /* Component */,
 				E891EE9A2B6273E2009595A0 /* Utility */,
+				E891EEC12B64C7E8009595A0 /* Screen */,
 				E891EE8B2B626BC7009595A0 /* Assets.xcassets */,
 				E891EE872B626BC1009595A0 /* HikeAppApp.swift */,
-				E891EEC12B64C7E8009595A0 /* Screen */,
 				E891EE8D2B626BC7009595A0 /* Preview Content */,
 			);
 			path = HikeApp;
@@ -322,8 +322,10 @@
 		E891EE932B626BC7009595A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon-Backpack AppIcon-Camera AppIcon-Campfire AppIcon-MagnifyingGlass AppIcon-Map AppIcon-Mushroom";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HikeApp/Preview Content\"";
@@ -351,8 +353,10 @@
 		E891EE942B626BC7009595A0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon-Backpack AppIcon-Camera AppIcon-Campfire AppIcon-MagnifyingGlass AppIcon-Map AppIcon-Mushroom";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HikeApp/Preview Content\"";
